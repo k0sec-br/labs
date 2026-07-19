@@ -1,0 +1,34 @@
+name: Proposta de novo laboratório
+description: Sugira um novo laboratório educacional.
+title: "lab proposal: "
+labels:
+  - lab
+  - help wanted
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Título proposto
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo
+      description: O que o laboratório ensina?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente autorizado
+      description: Onde o laboratório será executado com segurança?
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Riscos e limites
+      description: O que deve ser evitado?
+    validations:
+      required: true

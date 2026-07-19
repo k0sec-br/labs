@@ -1,0 +1,35 @@
+name: Melhoria de laboratório
+description: Sugira melhoria em um laboratório educacional.
+title: "lab: "
+labels:
+  - lab
+  - documentation
+  - beginner-friendly
+body:
+  - type: dropdown
+    id: lab
+    attributes:
+      label: Laboratório
+      options:
+        - 00 — Ambiente e segurança
+        - 01 — Linux permissões
+        - 02 — Git e GitHub
+        - 03 — Análise de headers HTTP
+        - 04 — Identificação de phishing
+        - 05 — Análise básica de logs
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Melhoria proposta
+      description: Explique a alteração sugerida.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Cuidados de segurança
+      description: Há algum risco, limite ético ou ajuste de escopo?
+    validations:
+      required: true
