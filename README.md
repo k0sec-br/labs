@@ -53,7 +53,9 @@ Cada laboratório deve conter:
 
 ## Ecossistema
 
-- Site oficial: [k0sec-br/k0sec](https://github.com/k0sec-br/k0sec)
+- Site oficial: [k0sec.pages.dev](https://k0sec.pages.dev)
+- Organização no GitHub: [k0sec-br](https://github.com/k0sec-br)
+- Repositório do site: [k0sec-br/k0sec](https://github.com/k0sec-br/k0sec)
 - Comunidade e governança: [k0sec-br/community](https://github.com/k0sec-br/community)
 - Trilhas de aprendizado: [k0sec-br/learning-paths](https://github.com/k0sec-br/learning-paths)
 - Discord: [Entrar na comunidade](https://discord.gg/JSszTDPS7u)
