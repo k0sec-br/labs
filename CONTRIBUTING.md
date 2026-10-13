@@ -49,3 +49,8 @@ Cada laboratório deve conter:
 3. Revise comandos e riscos.
 4. Execute `git diff --check`.
 5. Abra PR para `develop`.
+
+## Revisão de PRs
+
+1. O João vai revisar o PR.
+2. Se as mudanças são úteis, o merge seria feito.
